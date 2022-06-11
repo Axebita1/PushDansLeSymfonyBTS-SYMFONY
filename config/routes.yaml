@@ -5,3 +5,7 @@ controllers:
 kernel:
     resource: ../src/Kernel.php
     type: annotation
+
+register_page:
+        path: /register
+        controller: ../src/Controller/RegistrationController::index
